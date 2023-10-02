@@ -10,4 +10,5 @@ configMapGenerator:
     - TEST_VAL_1=1
     - TEST_VAL_2=2
     - TEST_VAL_3=3
+    - TEST_VAL_4=4
   name: rollouts-demo-env
