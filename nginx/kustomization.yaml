@@ -7,4 +7,5 @@ resources:
 configMapGenerator:
 - literals:
     - API_ENV_VAL=1
+    - TEST_VAL_1=1
   name: rollouts-demo-env

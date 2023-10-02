@@ -21,17 +21,12 @@ spec:
       - setCanaryScale:
           replicas: 1
       - pause: {}
-      # - setCanaryScale:
-      #     weight: 25
-      # - setCanaryScale:
-      #     matchTrafficWeight: true
-      # - pause: {}
       - setWeight: 25
       - pause:
-          duration: 3s
+          duration: 1s
       - setWeight: 75
       - pause:
-          duration: 3s
+          duration: 1s
   rollbackWindow:
     revisions: 2
   revisionHistoryLimit: 2
