@@ -8,4 +8,5 @@ configMapGenerator:
 - literals:
     - API_ENV_VAL=1
     - TEST_VAL_1=1
+    - TEST_VAL_2=2
   name: rollouts-demo-env
