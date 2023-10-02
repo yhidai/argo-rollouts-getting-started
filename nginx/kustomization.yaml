@@ -1,0 +1,10 @@
+namespace: managed-redis
+resources:
+- deployment.yaml
+- ingress.yaml
+- rollout.yaml
+- services.yaml
+configMapGenerator:
+- literals:
+    - API_ENV_VAL=1
+  name: api-env
