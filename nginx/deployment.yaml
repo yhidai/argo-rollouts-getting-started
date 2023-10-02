@@ -18,7 +18,7 @@ spec:
         image: nginx:1.23
         envFrom:
           - configMapRef:
-              name: api-env
+              name: rollouts-demo-env
         ports:
         - name: http
           containerPort: 80
